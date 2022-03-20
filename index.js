@@ -3,70 +3,71 @@
 function printNum(){
     var n1 = document.getElementsByClassName("ns")[6];
     n1.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[6].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[6].innerText
     })
     var n2 = document.getElementsByClassName("ns")[7];
     n2.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[7].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[7].innerText
     })
     var n3 = document.getElementsByClassName("ns")[8];
     n3.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[8].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[8].innerText
     })
     var n4 = document.getElementsByClassName("ns")[3];
     n4.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[3].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[3].innerText
     })
     var n5 = document.getElementsByClassName("ns")[4];
     n5.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[4].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[4].innerText
     })
     var n6 = document.getElementsByClassName("ns")[5];
     n6.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[5].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[5].innerText
     })
     var n7 = document.getElementsByClassName("ns")[0];
     n7.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[0].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[0].innerText
     })
     var n8 = document.getElementsByClassName("ns")[1];
     n8.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[1].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[1].innerText
     })
     var n9 = document.getElementsByClassName("ns")[2];
     n9.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[2].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[2].innerText
     })
     var n0 = document.getElementsByClassName("ns")[9];
     n0.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("ns")[9].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("ns")[9].innerText
     })
     var addBtn = document.getElementsByClassName("op")[0];
     addBtn.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("op")[0].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("op")[0].innerText
     })
     var subBtn = document.getElementsByClassName("op")[1];
     subBtn.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("op")[1].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("op")[1].innerText
     })
     var mulBtn = document.getElementsByClassName("op")[3];
     mulBtn.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += '*' /*document.getElementsByClassName("op")[3].innerText*/
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += '*' /*document.getElementsByClassName("op")[3].innerText*/
     })
     var divBtn = document.getElementsByClassName("op")[2];
     divBtn.addEventListener("click",function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText += document.getElementsByClassName("op")[2].innerText
+        document.querySelectorAll(".calcDisplay h1")[0].innerText += document.getElementsByClassName("op")[2].innerText
     })
     var dotBtn = document.querySelectorAll(".numbers")[12];
         dotBtn.addEventListener("click",function(){
-            document.getElementsByClassName("calcDisplay")[0].innerText += document.querySelectorAll(".numbers")[12].innerText
+            document.querySelectorAll(".calcDisplay h1")[0].innerText += document.querySelectorAll(".numbers")[12].innerText
         })
+
 }
 
 printNum();
 
 function getDisplayText(){
-   var num1 = document.getElementsByClassName("calcDisplay")[0].innerText;
+   var num1 = document.querySelectorAll(".calcDisplay h1")[0].innerText;
    return num1;
 }
 
@@ -77,15 +78,15 @@ function calcBrain(){
 function equalBtn (){
     document.getElementsByClassName("equal")[0].addEventListener("click", getDisplayText);
     document.getElementsByClassName("reset")[1].addEventListener("click", function(){
-        document.getElementsByClassName("calcDisplay")[0].innerText = "";
+        document.querySelectorAll(".calcDisplay h1")[0].innerText = "";
     })
     document.getElementsByClassName("reset")[0].addEventListener("click", function(){
         var del = getDisplayText().slice(0,-1);
-        document.getElementsByClassName("calcDisplay")[0].innerText = del;
+        document.querySelectorAll(".calcDisplay h1")[0].innerText = del;
     })
     document.getElementsByClassName("equal")[0].addEventListener("click", function(){
         calcBrain();
-        document.getElementsByClassName("calcDisplay")[0].innerText = calcBrain();
+        document.querySelectorAll(".calcDisplay h1")[0].innerText = calcBrain();
     });
 }
 
@@ -211,8 +212,4 @@ function theme3(){
 }
 
 themeButtons();
-
-
-
-
 
