@@ -110,7 +110,7 @@ function themeButtons(){
 function theme1(){
     document.querySelector(".background").style.backgroundColor = "hsl(222, 26%, 31%)";
     document.querySelector(".calcDisplay").style.backgroundColor = "hsl(224, 36%, 15%)";
-    document.querySelector(".calcDisplay").style.color = "hsl(60, 10%, 19%)";
+    document.querySelector(".calcDisplay").style.color = "white";
     document.querySelector(".calcButtons").style.backgroundColor = "hsl(223, 31%, 20%)";
     for (i=0 ; i<16; i++){
         document.querySelectorAll(".numbers")[i].style.backgroundColor = "hsl(30, 25%, 89%)";
