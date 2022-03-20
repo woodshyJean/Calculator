@@ -209,6 +209,8 @@ h6{
     }
     .calcDisplay{
         height: auto;
+        display:flex;
+        flex-direction:row;
     }
     .calcButtons{
         height: auto;
@@ -230,6 +232,8 @@ h6{
     }
     .calcDisplay{
         height: auto;
+        display:flex;
+        flex-direction:row;
     }
     .calcButtons{
         height: auto;
