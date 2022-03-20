@@ -224,6 +224,11 @@ h6{
         white-space: nowrap;
         overflow:hidden;
     }
+    
+    h1 br{
+        display:none;
+    }
+    
     .calcButtons{
         height: auto;
     }
@@ -248,6 +253,12 @@ h6{
         white-space: nowrap;
         overflow:hidden;
     }
+    
+    h1 br{
+        display: none;
+        
+    }
+    
     .calcButtons{
         height: auto;
     }
