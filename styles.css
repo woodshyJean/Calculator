@@ -208,7 +208,7 @@ h6{
         width:auto;
     }
     .calcDisplay{
-        height: auto;
+        min-height: 150px;
         display:flex;
         flex-direction:row;
     }
@@ -231,7 +231,7 @@ h6{
         width:auto;
     }
     .calcDisplay{
-        height: auto;
+        min-height: 150px;
         display:flex;
         flex-direction:row;
     }
