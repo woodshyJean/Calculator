@@ -141,6 +141,11 @@ p{
 h1{
     
 }
+
+h1 br{
+    display: none;
+}
+
 h3{
     color:white;
     margin: auto;
