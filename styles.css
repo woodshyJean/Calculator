@@ -211,6 +211,8 @@ h6{
         min-height: 150px;
         display:flex;
         flex-direction:row;
+        word-break: break-all;
+        font-size: 25px;
     }
     .calcButtons{
         height: auto;
@@ -234,6 +236,8 @@ h6{
         min-height: 150px;
         display:flex;
         flex-direction:row;
+        word-break: break-all;
+        font-size: 25px;
     }
     .calcButtons{
         height: auto;
