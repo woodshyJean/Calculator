@@ -1,5 +1,6 @@
 /* calculator functions */
 
+//* alot of this code can be replaced with a few switch statements*/
 function printNum(){
     var n1 = document.getElementsByClassName("ns")[6];
     n1.addEventListener("click",function(){
