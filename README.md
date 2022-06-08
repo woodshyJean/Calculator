@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator app
+# Frontend Mentor - Calculator app - https://ac3bk.github.io/Calculator/
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
